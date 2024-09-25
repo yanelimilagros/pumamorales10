@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<style>
+    /* General */
+    body {
+        font-family: 'Arial', sans-serif;
+        /* Tipografía simple y moderna */
+        margin: 0;
+        padding: 0;
+        background-color: #eaeaea;
+        /* Fondo gris claro */
+        color: #333;
+        /* Color de texto gris oscuro */
+    }
+
+    /* Encabezado */
+    header {
+        background-color: #2c3e50;
+        /* Azul oscuro */
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+
+    header h1 {
+        margin: 0;
+        font-size: 2.5em;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 15px 0 0;
+    }
+
+    nav ul li {
+        display: inline-block;
+        margin: 0 15px;
+    }
+
+    nav ul li a {
+        color: #ecf0f1;
+        /* Color claro */
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+        color: #e74c3c;
+        /* Rojo claro al pasar el ratón */
+    }
+
+    /* Estilo de Secciones */
+    section {
+        background-color: white;
+        /* Fondo blanco para cada sección */
+        border-radius: 8px;
+        /* Bordes redondeados */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        /* Sombra suave */
+        margin: 20px;
+        /* Espaciado entre secciones */
+        padding: 20px;
+        /* Espaciado interno */
+    }
+
+    /* Sección de Inicio */
+    #inicio {
+        border-left: 5px solid #1abc9c;
+        /* Línea decorativa verde */
+    }
+
+    #inicio h2 {
+        font-size: 2em;
+    }
+
+    /* Sección de Bibliografía */
+    #bibliografia {
+        border-left: 5px solid #3498db;
+        /* Línea decorativa azul */
+    }
+
+    #bibliografia h2 {
+        font-size: 2em;
+    }
+
+    /* Sección de Habilidades */
+    #habilidades {
+        border-left: 5px solid #f39c12;
+        /* Línea decorativa naranja */
+    }
+
+    #habilidades h2 {
+        font-size: 2em;
+    }
+
+    #habilidades ul {
+        list-style: none;
+        /* Sin puntos */
+        padding-left: 0;
+    }
+
+    #habilidades li {
+        margin: 10px 0;
+        font-size: 1.2em;
+        /* Tamaño de texto aumentado */
+    }
+
+    /* Sección de Proyectos */
+    #proyectos {
+        border-left: 5px solid #8e44ad;
+        /* Línea decorativa morada */
+    }
+
+    #proyectos h2 {
+        font-size: 2em;
+    }
+
+    /* Estilo de los elementos de proyecto */
+    .project-list {
+        display: flex;
+        flex-direction: column;
+        /* Disposición en columna */
+    }
+
+    .project-item {
+        margin: 10px 0;
+        padding: 15px;
+        background-color: #f8f9fa;
+        /* Fondo claro para los proyectos */
+        border-radius: 5px;
+        /* Bordes redondeados */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        /* Sombra suave */
+    }
+
+    /* Sección de Redes Sociales */
+    #redes-sociales {
+        border-left: 5px solid #e74c3c;
+        /* Línea decorativa roja */
+    }
+
+    #redes-sociales h2 {
+        font-size: 2em;
+    }
+
+    #redes-sociales ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        /* Centrar texto */
+    }
+
+    #redes-sociales ul li {
+        display: inline-block;
+        margin: 0 15px;
+    }
+
+    #redes-sociales ul li a {
+        text-decoration: none;
+        color: #2c3e50;
+        /* Texto oscuro */
+        font-weight: bold;
+        /* Negrita */
+    }
+
+    /* Pie de página */
+    footer {
+        background-color: #2c3e50;
+        /* Azul oscuro */
+        color: white;
+        text-align: center;
+        padding: 15px 0;
+        position: relative;
+        margin-top: 20px;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi Página Personal</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Milagros Yaneli Puma Morales</h1>
+            <img src="nnn.jpeg" alt="Descripción de la imagen" style="width: 600px; height: auto;">
+
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#bibliografia">Bibliografía</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#redes-sociales">Redes Sociales</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenido a mi página</h2>
+        <p>Este es un espacio donde comparto mis proyectos, habilidades y más sobre mí.</p>
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/rv2J8Xa0Njs"
+            title="Nanpa Básico, Beéle - Hasta Aquí Llegué (Letra)" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </section>
+
+    <section id="bibliografia">
+        <h2>Bibliografía</h2>
+        <p>Aquí puedes encontrar información sobre mi formación académica y profesional.</p>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Habilidad 1</li>
+            <li>Habilidad 2</li>
+            <li>Habilidad 3</li>
+            <li>Habilidad 4</li>
+        </ul>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <p>En esta sección destaco algunos de mis trabajos más relevantes.</p>
+        <div class="project-list">
+            <div class="project-item">
+                <h3>Proyecto 1</h3>
+                <p>Descripción breve del proyecto.</p>
+            </div>
+            <div class="project-item">
+                <h3>Proyecto 2</h3>
+                <p>Descripción breve del proyecto.</p>
+            </div>
+            <div class="project-item">
+                <h3>Proyecto 3</h3>
+                <p>Descripción breve del proyecto.</p>
+                <video controls width="600">
+                    <source src="nombre-de-tu-video.mp4" type="video/mp4">
+                    Tu navegador no soporta la etiqueta de video.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="redes-sociales">
+        <h2>Sígueme en redes sociales</h2>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Nombre. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
